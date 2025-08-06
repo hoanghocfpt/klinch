@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ComingSoonButton from "./components/ComingSoonButton";
 
 export default function Home() {
   return (
@@ -25,7 +26,8 @@ export default function Home() {
               <video className="w-full rounded-4xl" autoPlay muted loop playsinline src="/video/6842103731319.mp4"></video>
             </div>
             <div className="inline-flex flex-col justify-center space-y-3 md:space-y-6">
-              <div className="px-4 sm:px-16 py-4 inline-block bg-[#3336e8] text-center text-white text-sm sm:text-xl rounded-lg">Coming soon</div>
+              <ComingSoonButton />
+              {/* <div className="px-4 sm:px-16 py-4 inline-block bg-[#3336e8] text-center text-white text-sm sm:text-xl rounded-lg">Coming soon</div> */}
               <div className="w-full">
                 <p className="mb-3 md:mb-2 md:text-xl text-center md:text-left text-gray-400">Coming soon to both Android & iOS</p>
                 <div className="w-full flex justify-center space-x-4">
