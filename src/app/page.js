@@ -6,10 +6,13 @@ export default function Home() {
     <div className="bg-[#0a0a0a]">
       <header className="flex sticky top-0 left-0 right-0 bg-transparent backdrop-blur-md border-b border-zinc-800 justify-between items-center px-4 py-2 lg:px-[8%] lg:py-[20px]">
         {/* <Image src="/logo.png" alt="" width={120} height={48} className="h-8 sm:h-12" /> */}
-        <a href="#" className="text-4xl font-extrabold text-white">Klinch</a>
-        <a className="px-4 sm:px-4 py-3 sm:py-3 flex items-center space-x-2 bg-[#fff] text-[#121212] text-sm sm:text-base rounded-lg" href="https://x.com/klinchapp" target="_blank" rel="noopener noreferrer">
-          <span>Follow on</span>
-          <Image src="/images/twitter.png" alt="Twitter" width={16} height={16} />
+        <a href="#" className="text-4xl font-extrabold text-white flex items-center">
+          <Image src="/images/klinch_logo.png" alt="Klinch Logo" width={48} height={48} className="inline-block mr-2" />
+          <span>Klinch</span>
+        </a>
+        <a className="px-4 sm:px-4 py-3 sm:py-3 flex items-center space-x-2 bg-[#3336e8] text-[#fff] text-sm sm:text-base rounded-lg" href="https://x.com/klinchapp" target="_blank" rel="noopener noreferrer">
+          <span>Coming Soon</span>
+          {/* <Image src="/images/twitter.png" alt="Twitter" width={16} height={16} /> */}
         </a>
       </header>
       <section className="hero container mx-auto px-4 md:px-8 py-8 md:py-24">
@@ -50,6 +53,14 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row items-start md:justify-between">
             <h2 className="text-3xl font-semibold mb-2">Start Klinching today</h2>
+            <div className="flex space-x-4 mt-4 md:mt-0">
+              <a className="flex w-8 h-8 justify-center items-center bg-[#fff] text-[#121212] text-sm sm:text-base rounded-lg" href="https://x.com/klinchapp" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/twitter.png" alt="Twitter" width={16} height={16} />
+              </a>
+              <a className="flex w-8 h-8 justify-center items-center bg-[#fff] text-[#121212] text-sm sm:text-base rounded-lg" href="https://www.tiktok.com/@klinchapp" target="_blank" rel="noopener noreferrer">
+                <Image src="/images/tiktok.svg" alt="TikTok" width={22} height={22} />
+              </a>
+            </div>
           </div>
           <div className="mt-8 pt-8 border-t border-zinc-900 flex flex-col md:flex-row items-start md:justify-between md:items-center">
             <a href="#" className="text-4xl font-extrabold text-white">Klinch</a>
